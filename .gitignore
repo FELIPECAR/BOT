@@ -1,0 +1,25 @@
+# Entornos y caches de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Datos locales y copias de revision
+paper_data/
+paper_data*.zip
+*.log
+
+# Credenciales locales
+.env
+.env.*
+credentials*.json
+secrets*.json
+*.pem
+*.key
+
+# Archivos del sistema/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
